@@ -3,12 +3,11 @@ html.svg #svg-logo {
 	width: 15%;
 }
 
-html.no-svg #png-logo {
+html.svg #png-logo {
 	display: none;
 }
 
-/* Older Browsers */
-html.svg #svg-logo {
+html.no-svg #svg-logo {
 	display: none;
 }
 
