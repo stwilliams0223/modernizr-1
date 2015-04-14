@@ -3,12 +3,12 @@ html.svg #svg-logo {
 	width: 15%;
 }
 
-html.no-svg #svg-logo {
+html.no-svg #png-logo {
 	display: none;
 }
 
 /* Older Browsers */
-html.svg #png-logo {
+html.svg #svg-logo {
 	display: none;
 }
 
