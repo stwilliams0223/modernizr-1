@@ -1,20 +1,17 @@
-/* Your Styling */
-
-h1 {
-	background: #f0f;
-	color: #fff;
-	margin: 2em auto 0 auto;
-	height: 100px;
-	width: 100px;
-
-	/* Horiz Center*/
-	text-align: center;
-	line-height: 100px;
-	/* Make into Circle */
-	border-radius: 100px;
+/* New Browser */
+html.svg #svg-logo {
+	width: 15%;
 }
 
-h1:hover {
-	background: black;
-	transition: background .5s; 
+html.no-svg #svg-logo {
+	display: none;
+}
+
+/* Older Browsers */
+html.svg #png-logo {
+	display: none;
+}
+
+html.no-svg #png-logo {
+	background: red;
 }
