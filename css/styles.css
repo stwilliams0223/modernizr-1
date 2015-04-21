@@ -1,16 +1,15 @@
-/* New Browser */
-html.svg #svg-logo {
-	width: 15%;
+html.touch #phone-icon {
+
 }
 
-html.svg #png-logo {
+html.touch #home-icon {
 	display: none;
 }
 
-html.no-svg #svg-logo {
+html.no-touch #phone-icon {
 	display: none;
 }
 
-html.no-svg #png-logo {
-	background: red;
+html.no-touch #home-icon {
+
 }
